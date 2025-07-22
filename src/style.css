@@ -78,9 +78,7 @@ body {
   margin-right: 0;
 }
 
-/* --------------------------- */
-/* MEDIA QUERY FOR 1024PX CASE */
-/* --------------------------- */
+
 @media (max-width: 1024px) {
   .header {
     width: 1024px;
