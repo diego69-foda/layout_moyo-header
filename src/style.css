@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 :root {
@@ -56,8 +56,8 @@ body {
   margin-right: 32px;
 }
 
-.nav-list li:last-child .nav-link {
-  margin-right: 0;
+.nav-link:hover {
+  color: var(--blue-color);
 }
 
 .nav-link.is-active {
@@ -74,6 +74,6 @@ body {
   background-color: var(--blue-color);
 }
 
-.nav-link:hover {
-  color: var(--blue-color);
+.nav-list li:last-child .nav-link {
+  margin-right: 0;
 }
