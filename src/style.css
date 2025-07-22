@@ -14,26 +14,33 @@ body {
 }
 
 .header {
-  width: 100%;
+  width: 1200px;
+  height: 60px;
   display: flex;
   align-items: center;
   padding: 0 40px;
-  height: 100px; /* Just for visual testing; won't affect nav link height */
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin-right: 40px;
 }
 
 .logo img {
-  display: block;
+  width: 40px;
+  height: 40px;
 }
 
 .nav {
-  margin-left: 50px;
+  flex-grow: 1;
 }
 
 .nav-list {
   display: flex;
-  list-style: none;
-  height: 40px; /* From your mockup */
   align-items: center;
+  height: 60px;
+  list-style: none;
 }
 
 .nav-link {
@@ -42,11 +49,11 @@ body {
   height: 100%;
   color: #000;
   text-decoration: none;
-  margin-right: 32px;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 15px;
   position: relative;
+  margin-right: 32px;
 }
 
 .nav-list li:last-child .nav-link {
