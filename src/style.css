@@ -77,3 +77,31 @@ body {
 .nav-list li:last-child .nav-link {
   margin-right: 0;
 }
+
+/* --------------------------- */
+/* MEDIA QUERY FOR 1024PX CASE */
+/* --------------------------- */
+@media (max-width: 1024px) {
+  .header {
+    width: 1024px;
+    padding: 0 40px;
+  }
+
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nav-list {
+    height: 60px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+    margin-right: 32px;
+  }
+
+  .nav-list li:last-child .nav-link {
+    margin-right: 0;
+  }
+}
